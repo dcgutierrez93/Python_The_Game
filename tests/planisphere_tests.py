@@ -1,6 +1,7 @@
 from nose.tools import *
 from pythonTheGame.planisphere import Room
 
+
 def test_room():
     gold = Room("GoldRoom",
                 """This room has gold in it you can grab. There's a
